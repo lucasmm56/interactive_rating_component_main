@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
 }
 
-main {
+.page1 {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ main {
     justify-content: center;
 }
 
-section {
+.section1 {
     width: 22em;
     background-color: var(--Dark_Blue);
     align-items: center;
@@ -60,18 +60,7 @@ section {
     margin-left: -20px;
 }
 
-
-/* .numbers p{
-    height: 40px;
-    width: 48px;
-    border-radius: 50%;
-    background-color: var(--Medium_Grey);
-    text-align: center;
-    margin-left: 5%;
-    color: var(--White);
-} */
-
-.btn1 , .btn2 , .btn3 , .btn4 , .btn5 {
+.btn {
     height: 3.2em;
     width: 3.2em;
     border-radius: 50%;
@@ -83,11 +72,16 @@ section {
     align-items: center;
     margin-top: 1em;
 }
-.btn1:hover , .btn2:hover , .btn3:hover , .btn4:hover , .btn5:hover {
+.btn:hover {
     background-color: var(--Orange);
     color:var(--White);
     cursor: pointer;
 }
+.btn:focus{
+    background-color: var(--Medium_Grey);
+    color: var(--White);
+}
+
 .button{
     width: 20rem;
     height: 2.5rem;
@@ -107,4 +101,49 @@ section {
 .button:hover{
     background-color: var(--White);
     color: var(--Orange);
+}
+
+.page2{
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-thank-you{
+    padding-bottom: 2em;
+}
+.selected{
+    width: 11rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5em;
+    color: var(--Orange);
+    border-radius: 1.5em;
+    background-color: var(--button);
+    padding-left: 2em;
+    height: 2em;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+}
+#demo{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.section2 {
+    width: 22em;
+    background-color: var(--Dark_Blue);
+    align-items: center;
+    padding: 2em;
+    border-radius: 25px;
+    text-align: center;
+    color: var(--White);
+}
+.text-thank{
+    font-size: 0.97em;
+    color: var(--Light_Grey);
 }
