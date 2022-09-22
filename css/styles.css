@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100;500;700&family=Overpass:wght@100;400&family=Red+Hat+Display:wght@500;900&display=swap');
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light_Grey: hsl(217, 12%, 63%);
+    --Medium_Grey: hsl(216, 12%, 54%);
+    --Dark_Blue: hsl(213, 19%, 18%);
+    --Very_Dark_Blue: hsl(216, 12%, 8%);
+    --button: hsl(215, 20%, 25%);
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--Very_Dark_Blue);
+    background-repeat: no-repeat;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 22em;
+    background-color: var(--Dark_Blue);
+    align-items: center;
+    padding: 2em;
+    border-radius: 25px;
+}
+.star{
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    background-color: var(--button);
+}
+.icon{
+    margin-top: 1em;
+    margin-left: 0.9em;
+}
+
+.title{
+    color: var(--White);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+.text{
+    color: var(--White);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 100;
+    
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+}
+
+
+/* .numbers p{
+    height: 40px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: var(--Medium_Grey);
+    text-align: center;
+    margin-left: 5%;
+    color: var(--White);
+} */
+
+.btn1 , .btn2 , .btn3 , .btn4 , .btn5 {
+    height: 3.2em;
+    width: 3.2em;
+    border-radius: 50%;
+    background-color: var(--button);
+    text-align: center;
+    margin-left: 1.9em;
+    color: var(--Medium_Grey);
+    border: none;
+    align-items: center;
+    margin-top: 1em;
+}
+.btn1:hover , .btn2:hover , .btn3:hover , .btn4:hover , .btn5:hover {
+    background-color: var(--Orange);
+    color:var(--White);
+    cursor: pointer;
+}
+.button{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    background-color: var(--Orange);
+    margin: 0%;
+    cursor: pointer;
+    color: var(--White);
+    text-transform: uppercase;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+    border: none;
+    margin-top: 2em;
+}
+
+.button:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}
