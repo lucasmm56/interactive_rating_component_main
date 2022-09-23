@@ -147,3 +147,13 @@ body {
     font-size: 0.97em;
     color: var(--Light_Grey);
 }
+
+@media(max-width:410px){
+    
+    .section1{
+        width: 19em;
+    }
+    .button{
+        width: 21em;
+    }
+}
