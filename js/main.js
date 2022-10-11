@@ -17,9 +17,9 @@ function selectButton(num){
 
 }
 
-function hiddenDiv(page1, page2)
+function hiddenDiv(section1, page2)
 {
-    document.getElementById(page1).style.display = "none";
+    document.getElementById(section1).style.display = "none";
     document.getElementById(page2).style.display = "flex";
 }
 
