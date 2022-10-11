@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.page {
+.page1 {
     height: 100vh;
     display: flex;
     flex-direction: column;
